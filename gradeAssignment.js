@@ -1,11 +1,11 @@
 function gradeAssignment() {
   let grade = prompt("Enter your grade: ");
   if (grade >= 90) {
-      alert("Excellent");
+      alert("Your grade is: Excellent");
   } else if (grade >= 80) {
-      alert("Good");
+      alert("Your grade is: Good");
   } else if (grade >= 70) {
-      alert("Fair");
+      alert("Your grade is: Fair");
   } else {
       alert("Needs Improvement");
   }
